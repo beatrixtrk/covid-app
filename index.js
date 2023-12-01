@@ -4,6 +4,8 @@ import { initForm } from './form.js';
 
 window.addEventListener('DOMContentLoaded', () => {
     initForm();
-    initCasesChart();
-    initVaccinesChart();
+    setTimeout(() => {
+        initCasesChart();
+        initVaccinesChart();
+    });
 })

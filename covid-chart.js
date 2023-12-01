@@ -22,7 +22,7 @@ export const initCasesChart = () => {
                     labels: casesData.map(row => row.country),
                     datasets: [
                         {
-                            label: 'Igazolt esetek száma',
+                            label: 'Numbers of Confirmed Cases',
                             data: casesData.map(row => row.confirmed)
                         }
                     ]
@@ -53,7 +53,7 @@ export const initVaccinesChart = () => {
                     labels: vaccinesData.map(row => row.country),
                     datasets: [
                         {
-                            label: 'Beoltottak száma',
+                            label: 'Numbers of Vaccinated',
                             data: vaccinesData.map(row => row.people_vaccinated)
                         }
                     ]

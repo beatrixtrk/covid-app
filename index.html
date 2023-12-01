@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid-19 App - Záróvizsga</title>
+    <title>Covid-19 App - Final Exam</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,10 +22,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#cases">Esetek</a>
+                    <a href="#cases">Cases</a>
                 </li>
                 <li>
-                    <a href="#vaccines">Vakcina adatok</a>
+                    <a href="#vaccines">Vaccine data</a>
                 </li>
             </ul>
         </nav>
@@ -34,19 +34,18 @@
         <div class="container">
             <div class="row">
                 <div id="error-block" class="col-12 error-message" style="display: none;">
-                    Hiba történt az adatbeküldés közben
+                    An error occurred while submitting data
                 </div>
                 <div class="col-12 section-cases">
                     <div id="cases" class="anchor"></div>
                     <div class="section-header">
-                        <h2>Megbetegedések országonként</h2>
+                        <h2>Diseases by country</h2>
                     </div>
 
                     <div class="form-container">
                         <form action="" id="form-cases" class="covid-form">
                             <div class="form-group">
-                                <label for="cases-country" class="form-label">További információért válassz
-                                    országot</label>
+                                <label for="cases-country" class="form-label">Select a country for more information</label>
                                 <select id="cases-country" class="form-select" required>
                                     <option selected disabled value="">...</option>
                                 </select>
@@ -64,14 +63,13 @@
                 <div class="col-12 section-vaccines">
                     <div id="vaccines" class="anchor"></div>
                     <div class="section-header">
-                        <h2>Vakcina adatok országonként</h2>
+                        <h2>Vaccine data by country</h2>
                     </div>
 
                     <div class="form-container">
                         <form action="" id="form-vaccines" class="covid-form">
                             <div class="form-group">
-                                <label for="vaccines-country" class="form-label">További információért válassz
-                                    országot</label>
+                                <label for="vaccines-country" class="form-label">Select a country for more information</label>
                                 <select id="vaccines-country" class="form-select" required>
                                     <option selected disabled value="">...</option>
                                 </select>

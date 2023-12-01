@@ -56,47 +56,47 @@ export const showCasesData = (data) => {
     const updated = data.updated;
     container.insertAdjacentHTML('afterbegin', `
         <div class="updated">
-            <p>Utoljára frissítve: <span>${updated}</span></p>
+            <p>Last update: <span>${updated}</span></p>
         </div>
  
         <div class="cards">
             <div class="card">
-                <p>Igazolt esetek</p>
+                <p>Confirmed cases</p>
                 <span>${confirmed}</span>
             </div>
             <div class="card">
-                <p>Gyógyultak</p>
+                <p>Recovered</p>
                 <span>${recovered}</span>
             </div>
             <div class="card">
-                <p>Halálesetek</p>
+                <p>Cases of death</p>
                 <span>${deaths}</span>
             </div>
         </div>
 
         <div class="more-details">
             <div class="data">
-                <p>Főváros</p>
+                <p>Capital city</p>
                 <span>${capital_city}</span>
             </div>
             <div class="data">
-                <p>Népesség</p>
+                <p>Population</p>
                 <span>${population}</span>
             </div>
             <div class="data">
-                <p>Várható élettartam</p>
+                <p>Life expectancy/p>
                 <span>${life_expectancy} év</span>
             </div>
             <div class="data">
-                <p>Kontinens</p>
+                <p>Continent</p>
                 <span>${continent}</span>
             </div>
             <div class="data">
-                <p>Elhelyezkedés</p>
+                <p>Location</p>
                 <span>${location}</span>
             </div>
             <div class="data">
-                <p>Terület</p>
+                <p>Area</p>
                 <span>${sq_km_area} km2</span>
             </div>
         </div>
@@ -116,43 +116,43 @@ export const showVaccinesData = (data) => {
     const updated = data.updated;
     container.insertAdjacentHTML('afterbegin', `
         <div class="updated">
-            <p>Utoljára frissítve: <span>${updated}</span></p>
+            <p>Last update: <span>${updated}</span></p>
         </div>
  
         <div class="cards">
             <div class="card">
-                <p>Regisztrált</p>
+                <p>Administered</p>
                 <span>${administered}</span>
             </div>
             <div class="card">
-                <p>Beoltottak</p>
+                <p>Vaccinated</p>
                 <span>${people_vaccinated}</span>
             </div>
         </div>
 
         <div class="more-details">
             <div class="data">
-                <p>Főváros</p>
+                <p>Capital city</p>
                 <span>${capital_city}</span>
             </div>
             <div class="data">
-                <p>Népesség</p>
+                <p>Population</p>
                 <span>${population}</span>
             </div>
             <div class="data">
-                <p>Várható élettartam</p>
+                <p>Life expectancy</p>
                 <span>${life_expectancy} év</span>
             </div>
             <div class="data">
-                <p>Kontinens</p>
+                <p>Continet</p>
                 <span>${continent}</span>
             </div>
             <div class="data">
-                <p>Elhelyezkedés</p>
+                <p>Location</p>
                 <span>${location}</span>
             </div>
             <div class="data">
-                <p>Terület</p>
+                <p>Area</p>
                 <span>${sq_km_area} km2</span>
             </div>
         </div>
